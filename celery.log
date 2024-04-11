@@ -1,0 +1,171 @@
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+ 
+ -------------- celery@Naziboi v5.3.6 (emerald-rush)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.22631-SP0 2024-04-11 16:43:11
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         backend:0x2a697a31af0
+- ** ---------- .> transport:   redis://127.0.0.1:6379//
+- ** ---------- .> results:     redis://127.0.0.1:6379/
+- *** --- * --- .> concurrency: 16 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . backend.celery.debug_task
+  . profiles.tasks.check_subscription_expiration
+
+[2024-04-11 16:43:11,793: WARNING/MainProcess] D:\dsalgo-project\venv\lib\site-packages\celery\worker\consumer\consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-11 16:43:11,796: INFO/MainProcess] Connected to redis://127.0.0.1:6379//
+[2024-04-11 16:43:11,796: WARNING/MainProcess] D:\dsalgo-project\venv\lib\site-packages\celery\worker\consumer\consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2024-04-11 16:43:11,798: INFO/MainProcess] mingle: searching for neighbors
+[2024-04-11 16:43:12,186: INFO/SpawnPoolWorker-2] child process 2672 calling self.run()
+[2024-04-11 16:43:12,191: INFO/SpawnPoolWorker-5] child process 16496 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:43:12,214: INFO/SpawnPoolWorker-8] child process 26608 calling self.run()
+[2024-04-11 16:43:12,215: INFO/SpawnPoolWorker-3] child process 27196 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:43:12,249: INFO/SpawnPoolWorker-9] child process 23240 calling self.run()
+[2024-04-11 16:43:12,252: INFO/SpawnPoolWorker-7] child process 15592 calling self.run()
+[2024-04-11 16:43:12,253: INFO/SpawnPoolWorker-4] child process 37740 calling self.run()
+[2024-04-11 16:43:12,255: INFO/SpawnPoolWorker-11] child process 24804 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:43:12,258: INFO/SpawnPoolWorker-6] child process 8116 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:43:12,259: INFO/SpawnPoolWorker-10] child process 39144 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:43:12,262: INFO/SpawnPoolWorker-1] child process 6052 calling self.run()
+[2024-04-11 16:43:12,263: INFO/SpawnPoolWorker-16] child process 36888 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:43:12,272: INFO/SpawnPoolWorker-15] child process 36896 calling self.run()
+[2024-04-11 16:43:12,275: INFO/SpawnPoolWorker-12] child process 31040 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:43:12,282: INFO/SpawnPoolWorker-13] child process 10140 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:43:12,297: INFO/SpawnPoolWorker-14] child process 37992 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:43:12,814: INFO/MainProcess] mingle: all alone
+[2024-04-11 16:43:12,832: INFO/MainProcess] celery@Naziboi ready.
+[2024-04-11 16:44:00,011: INFO/MainProcess] Task profiles.tasks.check_subscription_expiration[c4e6263c-6368-45a9-be15-d4fe108377bc] received
+[2024-04-11 16:44:00,012: INFO/MainProcess] Task backend.celery.debug_task[5b6a6c87-f77a-4671-bf17-cba17be8bc23] received
+[2024-04-11 16:44:00,707: INFO/SpawnPoolWorker-22] child process 4180 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:44:00,723: INFO/SpawnPoolWorker-17] child process 16128 calling self.run()
+[2024-04-11 16:44:00,733: INFO/SpawnPoolWorker-24] child process 19048 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:44:00,736: INFO/SpawnPoolWorker-23] child process 3656 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:44:00,747: INFO/SpawnPoolWorker-27] child process 24980 calling self.run()
+[2024-04-11 16:44:00,749: INFO/SpawnPoolWorker-21] child process 25368 calling self.run()
+[2024-04-11 16:44:00,752: INFO/SpawnPoolWorker-18] child process 11808 calling self.run()
+[2024-04-11 16:44:00,755: INFO/SpawnPoolWorker-20] child process 30924 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:44:00,763: INFO/SpawnPoolWorker-28] child process 21728 calling self.run()
+[2024-04-11 16:44:00,770: INFO/SpawnPoolWorker-29] child process 33624 calling self.run()
+[2024-04-11 16:44:00,771: INFO/SpawnPoolWorker-25] child process 4232 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:44:00,777: INFO/SpawnPoolWorker-19] child process 16220 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:44:00,783: INFO/SpawnPoolWorker-26] child process 35784 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:44:00,795: INFO/SpawnPoolWorker-31] child process 40816 calling self.run()
+[2024-04-11 16:44:00,801: INFO/SpawnPoolWorker-30] child process 29668 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:44:02,162: INFO/SpawnPoolWorker-32] child process 14184 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:44:02,960: INFO/SpawnPoolWorker-33] child process 39684 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:45:00,001: INFO/MainProcess] Task backend.celery.debug_task[16833ed6-45cc-4dbe-b823-8eeabeed6d57] received
+[2024-04-11 16:45:00,002: INFO/MainProcess] Task profiles.tasks.check_subscription_expiration[6e093083-2034-4a1d-91ca-2959d650d762] received
+[2024-04-11 16:45:00,998: INFO/SpawnPoolWorker-36] child process 16904 calling self.run()
+[2024-04-11 16:45:00,999: INFO/SpawnPoolWorker-37] child process 17152 calling self.run()
+[2024-04-11 16:45:00,999: INFO/SpawnPoolWorker-38] child process 13604 calling self.run()
+[2024-04-11 16:45:01,001: INFO/SpawnPoolWorker-40] child process 456 calling self.run()
+[2024-04-11 16:45:01,001: INFO/SpawnPoolWorker-35] child process 40244 calling self.run()
+[2024-04-11 16:45:01,001: INFO/SpawnPoolWorker-39] child process 29692 calling self.run()
+[2024-04-11 16:45:01,004: INFO/SpawnPoolWorker-41] child process 24192 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:45:01,007: INFO/SpawnPoolWorker-34] child process 13920 calling self.run()
+[2024-04-11 16:45:01,007: INFO/SpawnPoolWorker-42] child process 3108 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+[2024-04-11 16:45:02,544: INFO/SpawnPoolWorker-43] child process 31320 calling self.run()
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup
+WARNING:root:No DATABASE_URL environment variable set, and so no databases setup

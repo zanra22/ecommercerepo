@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'profiles',
     'storages',
+
 ]
 
 MIDDLEWARE = [
@@ -113,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Manila'
 
 USE_I18N = True
 
@@ -194,6 +195,8 @@ SIMPLE_JWT = {
     "SLIDING_TOKEN_OBTAIN_SERIALIZER": "rest_framework_simplejwt.serializers.TokenObtainSlidingSerializer",
     "SLIDING_TOKEN_REFRESH_SERIALIZER": "rest_framework_simplejwt.serializers.TokenRefreshSlidingSerializer",
 }
-
+CELERY_TIMEZONE = "Asia/Manila"
+CELERY_BROKER_URL = 'redis://:pcb15b807c8e8ea37190cff0d1da11d4eda3d7cc56d5706dcec35b5e33782c01b@ec2-3-230-88-50.compute-1.amazonaws.com:12629'
+CELERY_RESULT_BACKEND = 'redis://:pcb15b807c8e8ea37190cff0d1da11d4eda3d7cc56d5706dcec35b5e33782c01b@ec2-3-230-88-50.compute-1.amazonaws.com:12629'
 
 

@@ -210,3 +210,9 @@ CSRF_COOKIE_SECURE              = True
 SECURE_HSTS_INCLUDE_SUBDOMAINS  = True
 SECURE_HSTS_SECONDS             = 1000000
 SECURE_FRAME_DENY               = True
+
+
+CELERY_TIMEZONE = "Asia/Manila"
+CELERY_BROKER_URL = 'redis://:pcb15b807c8e8ea37190cff0d1da11d4eda3d7cc56d5706dcec35b5e33782c01b@ec2-3-230-88-50.compute-1.amazonaws.com:12629'
+CELERY_RESULT_BACKEND = 'redis://:pcb15b807c8e8ea37190cff0d1da11d4eda3d7cc56d5706dcec35b5e33782c01b@ec2-3-230-88-50.compute-1.amazonaws.com:12629'
+

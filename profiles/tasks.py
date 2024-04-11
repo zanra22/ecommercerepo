@@ -13,3 +13,4 @@ def check_subscription_expiration():
     for profile in expired_subscriptions:
         profile.is_subscribed = False
         profile.save()
+        print(profile.is_subscribed)
