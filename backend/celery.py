@@ -14,6 +14,6 @@ app.autodiscover_tasks()
 app.conf.beat_schedule = {
     'check_subscription_expiration': {
         'task': 'profiles.tasks.check_subscription_expiration',
-        'schedule': crontab(hour=0, minute=0),
+        'schedule': crontab(hour=14, minute=15),
     },
 }
